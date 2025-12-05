@@ -1,0 +1,11 @@
+print("Want to hear a joke?")
+input()
+print("My friend told me he installed a skylight in his apartment.")
+input()
+print("I didn’t have the heart to tell him: that’s just a hole.")
+input("Want to hear another one?")
+print("My laptop asked if I wanted to install an update. I said, “Not now.”")
+input()
+print("It said, “Great, I’ll remind you every 11 minutes until one of us breaks.”")
+input(" That's all, that's for playing!" \
+" Click ENTER to end.")
