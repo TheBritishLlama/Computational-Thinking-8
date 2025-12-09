@@ -1,4 +1,6 @@
+print("")
 print("Hello, do you want to play a game?")
+print("")
 input("Press ENTER to play...")
 print("")
 print("Please name an animal...")
