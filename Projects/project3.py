@@ -49,13 +49,13 @@ for i in range(160):
 if x1 >= x2 and x1 >= x3 and x1 >= x4:
     print("Fish wins!")
 
-elif x2 >= x1 or x2 >= x3 or x4 >= x4:
+elif x2 >= x1 or x2 >= x3 or x2 >= x4:
     print("Cardinal wins!")
 
-elif x3 >= x2 and x1 >= x1 and x1 >= x4:
+elif x3 >= x2 and x3 >= x1 and x3 >= x4:
     print("Pineapple wins!")
 
-elif x4 >= x1 or x2 >= x3 or x4 >= x2:
+elif x4 >= x1 or x4 >= x3 or x4 >= x2:
     print("Dog wins!")
 
 
