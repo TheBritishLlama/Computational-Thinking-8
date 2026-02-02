@@ -9,6 +9,7 @@ set_background("capybara_sunset")
 # Source - https://stackoverflow.com/a/45439266
 # Posted by skrx, modified by community. See post 'Timeline' for change history
 # Retrieved 2026-01-29, License - CC BY-SA 3.0
+# Goal: Get the most crypto and buy the most Ferraris. Ferraris don't do anything but computers give crypto.
 crypto = 0
 computers = 0
 ferraris = 0
@@ -28,6 +29,7 @@ def add_crypto():
 # TODO - choose a key to do the action. ex: window.onkeypress(my_control, "space")
 
 window.onkeypress(add_crypto,"space")
+# Press Space to mine crypto
 
 # TODO - make a second control
 def buy_computer():
@@ -50,7 +52,9 @@ def buy_ferrari():
         create_sprite("ferrari",x,y)
 
 window.onkeypress(buy_computer,"c")
+# Buy a computer with C
 window.onkeypress(buy_ferrari,"f")
+# Buy a Ferrari with F
 
 # Section 3 - game loop
 window.listen()
